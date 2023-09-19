@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <TextInput /> 
+    <TextInput label={'LABEL'} value={'test'}/> 
   </React.StrictMode>
 );
 
